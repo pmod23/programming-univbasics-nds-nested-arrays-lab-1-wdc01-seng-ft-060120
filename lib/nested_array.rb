@@ -18,14 +18,14 @@ CONVENTIONAL_PRODUCE = [
 
 
 def assembled_matrix
-  STORAGE_ROOM=[ 
+  storage_room=[ 
     CONVENTIONAL_PRODUCE,
     ORGANIC_PRODUCE
     ]
   end 
   
 def sorted_matrix
-  STORAGE_ROOM=[
+  storage_room=[
     ["Eggplant",
     "Grapefruit",
     "Oranges",
@@ -46,7 +46,7 @@ def matrix_lookup(matrix, row, column)
 
 end
 
-puts matrix_lookup(STORAGE_ROOM, 0, 0)
+puts matrix_lookup(storage_room, 0, 0)
 # def matrix_update(matrix, row, column, new_value)
 #   # Given any matrix (array of arrays), a row index and a column index, 
 #   # Update the matrix location at that row and column to have the value of new_value
