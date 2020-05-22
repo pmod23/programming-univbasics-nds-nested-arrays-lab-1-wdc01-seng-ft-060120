@@ -7,7 +7,7 @@ ORGANIC_PRODUCE = [
   "Avocadoes",
   "Asparagus"
 ]
-produce_length=ORGANIC_PRODUCE.length 
+
 CONVENTIONAL_PRODUCE = [
   "Grapefruit",
   "Pineapple",
@@ -15,9 +15,14 @@ CONVENTIONAL_PRODUCE = [
   "Watermelon",
   "Eggplant"
 ]
-puts produce_length
+
 
 def assembled_matrix
+  STORAGE_ROOM=[ 
+    ORGANIC_PRODUCE, 
+    CONVENTIONAL_PRODUCE
+    ]
+  
   # Build an array that contains both of the above arrays
   # This matrix will represent a produce storage room
   # Organic standards require that organic products be stored ABOVE conventional, not the other way around
