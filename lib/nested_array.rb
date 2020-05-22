@@ -7,7 +7,7 @@ ORGANIC_PRODUCE = [
   "Avocadoes",
   "Asparagus"
 ]
-
+produce_length=ORGANIC_PRODUCE.length 
 CONVENTIONAL_PRODUCE = [
   "Grapefruit",
   "Pineapple",
@@ -15,6 +15,7 @@ CONVENTIONAL_PRODUCE = [
   "Watermelon",
   "Eggplant"
 ]
+puts produce_length
 
 def assembled_matrix
   # Build an array that contains both of the above arrays
