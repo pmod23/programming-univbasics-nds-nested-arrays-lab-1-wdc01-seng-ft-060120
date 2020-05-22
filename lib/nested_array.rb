@@ -46,9 +46,8 @@ def matrix_lookup(matrix, row, column)
 
 end
 
-puts matrix_lookup(sorted_matrix, 0, 3)
-# def matrix_update(matrix, row, column, new_value)
-#   # Given any matrix (array of arrays), a row index and a column index, 
-#   # Update the matrix location at that row and column to have the value of new_value
-#   # Return the updated matrix
-# end
+def matrix_update(matrix, row, column, new_value)
+  # Given any matrix (array of arrays), a row index and a column index, 
+  # Update the matrix location at that row and column to have the value of new_value
+  # Return the updated matrix
+end
