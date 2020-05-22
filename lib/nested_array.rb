@@ -28,16 +28,17 @@ def sorted_matrix
   STORAGE_ROOM=[
     ["Eggplant",
     "Grapefruit",
-    
+    "Oranges",
   "Pineapple",
-  ,
-  "Watermelon",
+  "Watermelon"
   ],
-  ["Strawberries",
+  ["Asparagus"
+  
+    "Strawberries",
   "Potatoes",
   "Grapes",
-  "Avocadoes",
-  "Asparagus"],
+  ,
+  ],
   ]
   # Using Array literal syntax only, build another nested array that 
   # uses the arrays of conventional and organic produce as before.
