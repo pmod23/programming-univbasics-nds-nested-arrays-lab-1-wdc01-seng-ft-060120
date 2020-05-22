@@ -55,7 +55,7 @@ def matrix_update(matrix, row, column, new_value)
   
   
 end
-matrix_update(sorted_matrix, 1, 3, "apple")
+puts matrix_update(sorted_matrix, 1, 3, "apple")
 
 
 
