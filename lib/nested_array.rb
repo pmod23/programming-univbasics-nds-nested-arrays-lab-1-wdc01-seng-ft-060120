@@ -32,20 +32,17 @@ def sorted_matrix
   "Pineapple",
   "Watermelon"
   ],
-  ["Asparagus"
-  
-    "Strawberries",
-  "Potatoes",
+  ["Asparagus",
+  "Avocadoes",
   "Grapes",
-  ,
-  ],
+  "Potatoes",
+"Strawberries"
   ]
-  # Using Array literal syntax only, build another nested array that 
-  # uses the arrays of conventional and organic produce as before.
-  # However, this time, sort each internal array alphabetically by the first character
+  ]
 end
 
 def matrix_lookup(matrix, row, column)
+  
   # Given any matrix (array of arrays), a row index and a column index, 
   # Return the matrix's content at that row and and column
 end
