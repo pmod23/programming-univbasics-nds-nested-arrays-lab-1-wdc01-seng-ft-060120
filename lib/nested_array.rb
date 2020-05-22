@@ -26,11 +26,13 @@ def assembled_matrix
   
 def sorted_matrix
   STORAGE_ROOM=[
-    ["Grapefruit",
+    ["Eggplant",
+    "Grapefruit",
+    
   "Pineapple",
-  "Oranges",
+  ,
   "Watermelon",
-  "Eggplant"],
+  ],
   ["Strawberries",
   "Potatoes",
   "Grapes",
